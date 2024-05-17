@@ -30,7 +30,7 @@ else:
     from django.test.utils import NullTimeKeeper, TimeKeeper, get_runner
     from django.utils.deprecation import RemovedInDjango60Warning
     from django.utils.log import DEFAULT_LOGGING
-    from django.utils.version import PY312, PYPY
+    from django.utils.version import PY312, PYPY # Remove PYPY if  it is not defined
 
 try:
     import MySQLdb
